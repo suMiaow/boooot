@@ -1,2 +1,2 @@
-# springboot_study
+# boooot
 learning spring boot
