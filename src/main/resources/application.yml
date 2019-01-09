@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: boooot
+server:
+  port: 8080
+debug: true
+logging:
+  path: ../../../
+
+---
+spring:
+  profiles: dev
+  application:
+    name: boooot
+server:
+  port: 9090
+
+---
+spring:
+     profiles: prod
+     application:
+       name: boooot
+server:
+  port: 4431
